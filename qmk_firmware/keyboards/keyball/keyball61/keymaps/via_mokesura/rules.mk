@@ -1,4 +1,4 @@
-RGBLIGHT_ENABLE = yes
+RGBLIGHT_ENABLE = nof
 
 OLED_ENABLE = yes
 
