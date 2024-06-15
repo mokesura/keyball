@@ -44,6 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     SSNP_HOR , _______  , KC_4     , KC_5     , KC_6     ,S(KC_SCLN),                                  KC_PGUP  , KC_NUBS  , KC_DOWN  , KC_BTN2  , KC_BTN3  , _______  ,
     _______  , _______  , KC_1     , KC_2     , KC_3     ,S(KC_MINS), _______  ,            _______  , KC_PGDN  ,S(KC_NUBS), _______  , _______  , _______  , _______  ,
     _______  , _______  , XXXXXXX  , XXXXXXX  , XXXXXXX  , _______  , _______  ,            _______  , _______  , _______  , _______  , _______  , _______  , _______
+  ),
 
   [3] = LAYOUT_universal( // Mouse
     _______  , _______  , _______  , _______  , _______  , _______  ,                                  _______  , _______  , _______  , _______  , _______  , _______  ,
@@ -51,7 +52,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     _______  , _______  , KC_BTN3  , KC_BTN2  , KC_BTN1  , _______  ,                                  _______  , _______  , _______  , _______  , _______  , _______  ,
     _______  , _______  , _______  , _______  , _______  , _______  , _______  ,            _______  , _______  , _______  , _______  , _______  , _______  , _______  ,
     _______  , _______  , XXXXXXX  , XXXXXXX  , XXXXXXX  , _______  , _______  ,            _______  , _______  , _______  , _______  , _______  , _______  , _______
-   
+  ),
+
   [4] = LAYOUT_universal( // Fn
     RGB_TOG  , AML_TO   , AML_I50  , AML_D50  , _______  , SSNP_FRE ,                                  RGB_M_P  , RGB_M_B  , RGB_M_R  , RGB_M_SW , RGB_M_SN , RGB_M_K  ,
     RGB_MOD  , RGB_HUI  , RGB_SAI  , RGB_VAI  , _______  , SSNP_VRT ,                                  RGB_M_X  , RGB_M_G  , RGB_M_T  , RGB_M_TW , _______  , _______  ,
